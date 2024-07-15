@@ -40,9 +40,70 @@ a {
 }
 
 .attribution {
+    margin-top: 3rem;
     font-size: 11px;
     text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+.separate {
+    width: 100%;
+    height: 1px;
+    display: block;
+    background: hsl(217, 33%, 22%);
+    margin: 12px 0;
+}
+/* Card */
+.nft-card {
+    margin-top: 5rem;
+    width: 313px;
+    background: hsl(217, 43%, 17%);
+    padding: 22px;
+    border-radius: 20px;
+}
+.nft-card__thumb {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.nft-card__heading {
+    margin-top: 26px;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.nft-card__desc {
+    margin-top: 26px;
+    color: hsl(218, 20%, 53%);
+    font-size: 1.6rem;
+}
+.nft-card-middle {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    padding-bottom: 14px;
+}
+
+.nft-card-middle_left,
+.nft-card-middle_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 5px;
+}
+
+.author_avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #fff;
+}
+.nft-card__bottom {
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
 }
